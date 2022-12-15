@@ -4,16 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Russian travel</title>
+    <link rel="stylesheet" href="./pages/index.css">
   </head>
-  <body>
+  <body class="body">
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <img
+        class="header__logo"
+        src="./images/header-logo.svg"
+        alt="Логотип Россия"
+      />
+      <a class="header__lang-link" href="#">Ru</a>
+      <a class="header__lang-link" href="#">En</a>
+      </header>
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <h2 class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </h2>
+        <img class="lead__image" src="./images/lead-polka.jpg" alt="Ваша полка-верхняя">
+        <p class="lead__caption">ваша полка — верхняя</p>
       </section>
       <section class="intro">
         <div>
@@ -88,17 +99,17 @@
       </section>
       <section class="places">
         <div class="places__place">
-          <h2 class="place__title">Куршская коса</h2>
-          <img class="place__image" src="" alt="" />
-          <p class="place__url">URL</p>
-          <a class="place__link" href="#">park-kosa.ru</a>
-          <p class="place__text">
+          <h2 class="places__title">Куршская коса</h2>
+          <img class="places__image" src="" alt="" />
+          <p class="places__url">URL</p>
+          <a class="places__link" href="#">park-kosa.ru</a>
+          <p class="places__text">
             Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
             горизонта — спокойного Куршского залива с одной стороны и
             подёрнутого рябью волн Балтийского моря с другой. Уникальная
             природная зона на краю российского анклава.
           </p>
-          <p class="place__text">
+          <p class="places__text">
             На этом Калининградская область не заканчивается. Для
             путешественника и исследователя там же по соседству — самая западная
             точка России, Балтийская коса, — и немецкое наследие россыпи
@@ -107,17 +118,17 @@
             моря.
           </p>
         </div>
-        <div class="places__place">
-          <h2 class="place__title">Кольский</h2>
-          <img class="place__image" src="" alt="" />
-          <p class="place__url">URL</p>
-          <a class="place__link" href="">National Geographic</a>
-          <p class="place__text">
+        <div class="placess__place">
+          <h2 class="places__title">Кольский</h2>
+          <img class="places__image" src="" alt="" />
+          <p class="places__url">URL</p>
+          <a class="places__link" href="">National Geographic</a>
+          <p class="places__text">
             Почти весь полуостров находится за Полярным кругом. Саамская тундра,
             от которой на юг — тайга, а на север — Ледовитый океан,
             прикидывающийся Баренцевым морем.
           </p>
-          <p class="place__text">
+          <p class="places__text">
             Возможно, вы смотрели Звягинцева и даже слышали историю арктического
             фестиваля в Териберке. Возможно, слово «Хибины» не осталось под
             снегом школьных воспоминаний об уроках географии. Возможно, вы не
@@ -127,17 +138,17 @@
           </p>
         </div>
         <div class="places__place">
-          <h2 class="place__title">Алтай</h2>
-          <img class="place__image" src="" alt="" />
-          <p class="place__url">URL</p>
-          <a class="place__link" href="">YouTube</a>
-          <p class="place__text">
+          <h2 class="places__title">Алтай</h2>
+          <img class="places__image" src="" alt="" />
+          <p class="places__url">URL</p>
+          <a class="places__link" href="">YouTube</a>
+          <p class="places__text">
             Алтай — одно из красивейших мест в России. В первую очередь из-за
             гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами,
             горные реки и озёра. А если вы откроете в автомобиле окна, сможете
             познакомиться с невидимым чудом здешних мест — горным воздухом.
           </p>
-          <p class="place__text">
+          <p class="places__text">
             Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так
             вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая
             бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули.
@@ -145,16 +156,16 @@
           </p>
         </div>
         <div class="places__place">
-          <h2 class="place__title">Зимний Байкал</h2>
-          <img class="place__image" src="" alt="" />
-          <p class="place__url">URL</p>
-          <a class="place__link" href="">https://vk.com/baikalmile</a>
-          <p class="place__text">
+          <h2 class="places__title">Зимний Байкал</h2>
+          <img class="places__image" src="" alt="" />
+          <p class="places__url">URL</p>
+          <a class="places__link" href="">https://vk.com/baikalmile</a>
+          <p class="places__text">
             Всем известен Байкал как крупнейшее озеро в мире. Многие также
             знают, что это самый большой источник пресной воды и одно из
             красивейших мест в России.
           </p>
-          <p class="place__text">
+          <p class="places__text">
             Конечно, это всё так. Но Байкал ещё идеальное место для соревнований
             по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к
             мотоциклу, и тандем старается развить как можно бóльшую скорость на
@@ -162,12 +173,12 @@
             поставлен мировой рекорд — 197.011 км/ч.
           </p>
         </div>
-        <div class="places__place">
-          <h2 class="place__title">Карелия</h2>
-          <img class="place__image" src="" alt="" />
-          <p class="place__url">URL</p>
-          <a class="place__link" href="">http://vodlozero.ru/</a>
-          <p class="place__text">
+        <div class="placess__place">
+          <h2 class="places__title">Карелия</h2>
+          <img class="places__image" src="" alt="" />
+          <p class="places__url">URL</p>
+          <a class="places__link" href="">http://vodlozero.ru/</a>
+          <p class="places__text">
             Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
             сибирская лиственница не растёт западнее Водлозера. Зато здесь она
             вымахивает на 30 метров — леса карельских национальных парков из-за
