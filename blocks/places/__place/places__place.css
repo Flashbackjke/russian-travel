@@ -1,0 +1,6 @@
+.places__place {
+  display: flex;
+  max-width: 984px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
