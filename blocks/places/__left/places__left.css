@@ -1,7 +1,0 @@
-.places__left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-right: 40px;
-  max-width: 460px;
-}
