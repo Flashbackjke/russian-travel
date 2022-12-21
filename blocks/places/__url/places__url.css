@@ -5,3 +5,13 @@
   color: #AAAAAA;
   margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .places__url {
+    line-height: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #AAAAAA;
+    margin: 0;
+  }
+}

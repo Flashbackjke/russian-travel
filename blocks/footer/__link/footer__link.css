@@ -5,3 +5,18 @@
   margin: 0;
   margin-right: 18px;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    line-height: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-right: 18px;
+    margin-bottom: 32px;
+  }
+
+  .footer__link:last-child {
+    margin-bottom: 48px;
+  }
+}
