@@ -5,6 +5,10 @@
 * Figma
 * Картинки
 
+**GH Pages**
+
+https://flashbackjke.github.io/russian-travel/index.html
+
 **Интро**
 
 Здесь будет проект о путешествии по России.
