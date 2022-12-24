@@ -1,5 +1,8 @@
 .header__lang {
   display: flex;
   align-self: flex-end;
-  justify-content: space-between;
+  align-items: flex-end;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
