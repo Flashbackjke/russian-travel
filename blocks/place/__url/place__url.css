@@ -1,4 +1,4 @@
-.places__url {
+.place__url {
   line-height: 170%;
   font-size: 12px;
   font-weight: 400;
@@ -6,8 +6,8 @@
   margin: 0;
 }
 
-@media screen and (max-width: 320px) {
-  .places__url {
+@media screen and (max-width: 425px) {
+  .place__url {
     line-height: 100%;
     font-size: 12px;
     font-weight: 400;

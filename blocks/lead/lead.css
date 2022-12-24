@@ -9,33 +9,20 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    display: flex;
-    flex-direction: column;
     max-width: 928px;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    display: flex;
-    flex-direction: column;
     max-width: 768px;
-    align-items: center;
-    margin: 0 auto;
     margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .lead {
-    display: flex;
-    flex-direction: column;
-    max-width: 320px;
-    align-items: center;
-    margin: 0 auto;
+    max-width: 100%;
     margin-bottom: 64px;
   }
 }

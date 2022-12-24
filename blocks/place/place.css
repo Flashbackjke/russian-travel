@@ -1,42 +1,39 @@
-.places__place {
+.place {
   display: grid;
   grid-template-columns: max(460px) max(484px);
   row-gap: 48px;
   column-gap: 40px;
   max-width: 984px;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 80px;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 1024px) {
-  .places__place {
-    display: grid;
-    grid-template-columns: max(440px) max(456px);
+  .place {
+    grid-template-columns: fit-content(440px) fit-content(456px);
     row-gap: 48px;
     column-gap: 32px;
     max-width: 928px;
-    margin: 0 auto;
-    margin-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .places__place {
-    display: grid;
-    grid-template-columns: max(360px) max(352px);
+  .place {
+    grid-template-columns: fit-content(360px) fit-content(352px);
     row-gap: 48px;
     column-gap: 28px;
     max-width: 720px;
-    margin: 0 auto;
     margin-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .places__place {
+@media screen and (max-width: 425px) {
+  .place {
     display: flex;
     flex-direction: column;
-    max-width: 320px;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 50px;
   }

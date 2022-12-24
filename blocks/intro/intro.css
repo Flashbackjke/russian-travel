@@ -7,27 +7,19 @@ margin-bottom: 92px;
 
 @media screen and (max-width: 1024px) {
   .intro {
-    display: flex;
-    max-width: 928px;
-    margin: 0 auto;
-    margin-bottom: 92px;
+    max-width: 90.6%;
     }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    display: flex;
-    max-width: 720px;
-    margin: 0 auto;
+    max-width: 93.7%;
     margin-bottom: 88px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .intro {
-    display: flex;
-    max-width: 288px;
-    margin: 0 auto;
     margin-bottom: 64px;
     }
 }
