@@ -8,18 +8,18 @@ margin-bottom: 92px;
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 90.6%;
-    }
+  }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 93.7%;
     margin-bottom: 88px;
-    }
+  }
 }
 
 @media screen and (max-width: 425px) {
   .intro {
     margin-bottom: 64px;
-    }
+  }
 }
