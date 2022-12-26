@@ -39,10 +39,7 @@
 
 @media screen and (max-width: 425px) {
   .place {
-    display: flex;
-    flex-direction: column;
     max-width: 100%;
-    margin: 0 auto;
-    margin-bottom: 50px;
   }
 }
+
