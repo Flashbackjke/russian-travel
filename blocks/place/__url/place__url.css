@@ -4,11 +4,20 @@
   font-weight: 400;
   color: #AAAAAA;
   margin: 0;
+  padding: 0;
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
   .place__url {
-    line-height: 100%;
+    margin-bottom: 10px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__url {
+    line-height: 100%;
+    margin-bottom: 12px;
+  }
+}
+
