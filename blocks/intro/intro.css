@@ -1,8 +1,8 @@
 .intro {
-display: flex;
-max-width: 984px;
-margin: 0 auto;
-margin-bottom: 92px;
+  display: flex;
+  max-width: 984px;
+  margin: 0 auto;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
